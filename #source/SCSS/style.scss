@@ -1,0 +1,87 @@
+@import "nullstyle.scss";
+header {
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__container {
+    width: 75%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo-container{
+    h1 {
+        font-size: 24px;
+        text-align: left;
+    }
+}
+.menu{
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+      li { 
+        text-decoration: none;
+        display: inline-block; 
+        padding: 0px 10px;
+    }
+    
+      a {
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+    
+}
+.header__button_white{
+    padding: 16px 40px 14px;
+    color: #7B61FF;
+    height: 54px;
+    background: #FFFFFF;
+    border: 0px;
+}
+.header__button_purple{
+    height: 54px;
+    padding: 16px 40px 14px;
+    background-color: #7B61FF;
+    border: 0px;
+}
+.header__button_link{
+    background-color: transparent;
+    border: 0px;
+}
+.hero{
+    width: 100%;
+    height: 870px;
+    color: white;
+    background: url(..//img/Shape.png);
+}
+.hero__text-container{
+    width: 770px;
+    height: 374px;
+    padding: 231px  375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero__description-container{
+    width: 470px;
+    height: 64px;
+}
+.hero__button{
+    width: 270px;
+    height: 70px;
+    background: #7B61FF;
+    border: 0;
+}        
