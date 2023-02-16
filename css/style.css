@@ -244,6 +244,7 @@ header a {
   color: white;
   background: url(../img/hero.webp);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 hero img{
   width: 100%;
@@ -278,4 +279,6 @@ hero img{
 
 .graph {
   background: url(../img/Graph.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
