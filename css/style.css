@@ -243,6 +243,7 @@ header a {
   height: 870px;
   color: white;
   background: url(../img/hero.webp);
+  background-repeat: no-repeat;
 }
 
 .hero__text-container {
