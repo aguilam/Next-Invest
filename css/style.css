@@ -245,7 +245,9 @@ header a {
   background: url(../img/hero.webp);
   background-repeat: no-repeat;
 }
-
+hero img{
+  width: 100%;
+}
 .hero__text-container {
   width: 770px;
   height: 374px;
